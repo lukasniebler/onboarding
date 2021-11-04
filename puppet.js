@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer')
 
 async function getVisual() {
 	try {
-		const URL = 'https://www.wi1.rw.fau.de';
+		const URL = 'https://testinstanz-natfak:8890';
 		const browser = await puppeteer.launch({
             slowMo: 250,
         });
